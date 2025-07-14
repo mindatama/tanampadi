@@ -5,4 +5,8 @@
 </p>
 
 # Tanampadi
-ini adalah proyek Wijatmoko Mindatama (Koko) untuk memberikan ilmu kepada seluruh orang tentang teknologi khususnya yang di kuasai oleh penulis sendiri. dalam menulis proyek ini, Koko tergerak dari <a href="https://github.com/trimstray/the-book-of-secret-knowledge">the book secret kowledge</a>
+ini adalah proyek Wijatmoko Mindatama (Koko) untuk memberikan ilmu kepada seluruh orang tentang teknologi khususnya yang di kuasai oleh penulis sendiri. teknologi yang di kuasai dalam lingkup sysadm, network, dan iot. dalam menulis proyek ini, Koko tergerak dari <a href="https://github.com/trimstray/the-book-of-secret-knowledge">the book secret kowledge</a>. 
+
+# Kenapa tanampadi
+menganut filosofi padi sebagai bahan makanan pokok sebagian besar penduduk indonesia bahkan di Asia, dengan menanam padi dapat memberikan manfaat bagi khalayak umum dan menghasilkan sesuatu yang memiliki nilai di dalamnya.
+
