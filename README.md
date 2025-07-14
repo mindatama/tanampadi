@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/mindatama/tanampadi">
-    <img src="https://github.com/mindatama/tanampadi/blob/master/static/img/WM.png" alt="Master">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/WM.png" alt="Master">
   </a>
 </p>
 
