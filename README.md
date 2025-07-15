@@ -10,3 +10,31 @@ ini adalah proyek Wijatmoko Mindatama (Koko) untuk memberikan ilmu kepada seluru
 ## Kenapa tanampadi
 menganut filosofi padi sebagai bahan makanan pokok sebagian besar penduduk indonesia bahkan di Asia, dengan menanam padi dapat memberikan manfaat bagi khalayak umum dan menghasilkan sesuatu yang memiliki nilai di dalamnya.
 
+
+## :anger: &nbsp;Daftar Isi
+
+Bab Utama:
+
+- **[Sysadm](#syadm-di)**
+- **[Network](#network-di)**
+- **[webdev](#webdev-di)**
+- **[IOT](#iot-di)**
+
+
+## &nbsp;Tanampadi (Chapters)
+
+#### Sysadm &nbsp;[<sup>[DI]</sup>](#anger-daftar-isi)
+
+##### :black_small_square: System Operasi
+
+<p>
+&nbsp;&nbsp; <a href="https://www.linux.org/"><b>Ubuntu Server/ Debian</b></a> adalah distro/ turunan dari linux OS yang dirancang untuk penggunaan pada server.<br>
+&nbsp;&nbsp; <a href="https://www.microsoft.com/en-us/windows-server"><b>Windows Server</b></a> adalah sistem operasi yang dikembangkan oleh microsoft untuk digunakan pada server.<br>
+</p>
+
+##### :black_small_square: pengetahuan terminal
+
+<p>
+&nbsp;&nbsp; <a href="https://github.com/rupa/z"><b>proses monitoring</b></a> 
+&nbsp;&nbsp; <a href="https://github.com/junegunn/fzf"><b>fzf</b></a> performa monitoring<br>
+</p>
