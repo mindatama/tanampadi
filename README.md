@@ -11,7 +11,7 @@ ini adalah proyek Wijatmoko Mindatama (Koko) untuk memberikan ilmu kepada seluru
 menganut filosofi padi sebagai bahan makanan pokok sebagian besar penduduk indonesia bahkan di Asia, dengan menanam padi dapat memberikan manfaat bagi khalayak umum dan menghasilkan sesuatu yang memiliki nilai di dalamnya.
 
 
-## :anger: &nbsp;Daftar Isi
+## :key: &nbsp;Daftar Isi
 
 Bab Utama:
 
@@ -36,5 +36,6 @@ Bab Utama:
 
 <p>
 &nbsp;&nbsp; <a href="https://github.com/rupa/z"><b>proses monitoring</b></a> 
-&nbsp;&nbsp; <a href="https://github.com/junegunn/fzf"><b>fzf</b></a> performa monitoring<br>
+&nbsp;&nbsp; <a href="https://github.com/junegunn/fzf"><b>performa monitoring </b></a> 
+<br>
 </p>
