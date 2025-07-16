@@ -15,11 +15,11 @@ menganut filosofi padi sebagai bahan makanan pokok sebagian besar penduduk indon
 
 Bab Utama:
 
-- **[Sysadm](#syadm-di)**
-- **[Network](#network-di)**
-- **[webdev](#webdev-di)**
-- **[IOT](#iot-di)**
-- **[Proyek](#proyek-di)**
+- **[Sysadm](#syadm-DaftarIsi)**
+- **[Network](#network-DaftarIsi)**
+- **[webdev](#webdev-DaftarIsi)**
+- **[IOT](#iot-DaftarIsi)**
+- **[Proyek](#proyek-DaftarIsi)**
 
 
 ## &nbsp;Tanampadi (Isi tiap Bab)
@@ -61,6 +61,7 @@ Bab Utama:
 ##### :black_small_square: Apps Pendukung
 
 <p>
+&nbsp;&nbsp; <a href="https://github.com/rupa/z"><b>Low level design & High level design</b></a> <br>
 &nbsp;&nbsp; <a href="https://github.com/rupa/z"><b>Ansible</b></a> <br>
 &nbsp;&nbsp; <a href="https://github.com/rupa/z"><b>Veeam Backup</b></a> <br>
 &nbsp;&nbsp; <a href="https://github.com/junegunn/fzf"><b>PAM remote access</b></a> <br>
@@ -77,7 +78,7 @@ Bab Utama:
 &nbsp;&nbsp; <a href="https://github.com/rupa/z"><b>OSI layer</b></a> <br>
 &nbsp;&nbsp; <a href="https://github.com/rupa/z"><b>IP</b></a> <br>
 &nbsp;&nbsp; <a href="https://github.com/junegunn/fzf"><b>subnet</b></a> <br>
-&nbsp;&nbsp; <a href="https://git-scm.com/doc"><b></b></a>VLAN<br>
-&nbsp;&nbsp; <a href="https://git-scm.com/doc"><b></b></a>routing<br>
-&nbsp;&nbsp; <a href="https://git-scm.com/doc"><b></b></a>wireless<br>
+&nbsp;&nbsp; <a href="https://git-scm.com/doc"><b>VLAN</b></a><br>
+&nbsp;&nbsp; <a href="https://git-scm.com/doc"><b>routing</b></a><br>
+&nbsp;&nbsp; <a href="https://git-scm.com/doc"><b>wireless</b></a><br>
 </p>
