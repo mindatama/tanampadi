@@ -37,9 +37,9 @@ Bab Utama:
 ##### :black_small_square: pengetahuan terminal
 
 <p>
-&nbsp;&nbsp; <a href="https://github.com/rupa/z"><b>proses monitoring</b></a> <br>
-&nbsp;&nbsp; <a href="https://github.com/junegunn/fzf"><b>performa monitoring</b></a> <br>
-&nbsp;&nbsp; <a href="https://git-scm.com/doc"><b>versioning control system</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>proses monitoring</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>performa monitoring</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>versioning control system</b></a> <br>
 </p>
 
 ##### :black_small_square: Virtual Machine
@@ -61,13 +61,13 @@ Bab Utama:
 ##### :black_small_square: Apps Pendukung
 
 <p>
-&nbsp;&nbsp; <a href="https://github.com/rupa/z"><b>Low level design & High level design</b></a> <br>
-&nbsp;&nbsp; <a href="https://github.com/rupa/z"><b>Ansible</b></a> <br>
-&nbsp;&nbsp; <a href="https://github.com/rupa/z"><b>Veeam Backup</b></a> <br>
-&nbsp;&nbsp; <a href="https://github.com/junegunn/fzf"><b>PAM remote access</b></a> <br>
-&nbsp;&nbsp; <a href="https://git-scm.com/doc"><b>PHPipam</b></a> <br>
-&nbsp;&nbsp; <a href="https://git-scm.com/doc"><b>NAS</b></a> atau network attach storage adalah <br>
-&nbsp;&nbsp; <a href="https://git-scm.com/doc"><b>Manage VM</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>Low level design & High level design</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>Ansible</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>Veeam Backup</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>PAM remote access</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>PHPipam</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>NAS</b></a> atau network attach storage adalah <br>
+&nbsp;&nbsp; <a href=""><b>Manage VM</b></a> <br>
 </p>
 
 #### Network &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
@@ -75,10 +75,19 @@ Bab Utama:
 ##### :black_small_square: Dasar Network
 
 <p>
-&nbsp;&nbsp; <a href="https://github.com/rupa/z"><b>OSI layer</b></a> <br>
-&nbsp;&nbsp; <a href="https://github.com/rupa/z"><b>IP</b></a> <br>
-&nbsp;&nbsp; <a href="https://github.com/junegunn/fzf"><b>subnet</b></a> <br>
-&nbsp;&nbsp; <a href="https://git-scm.com/doc"><b>VLAN</b></a><br>
-&nbsp;&nbsp; <a href="https://git-scm.com/doc"><b>routing</b></a><br>
-&nbsp;&nbsp; <a href="https://git-scm.com/doc"><b>wireless</b></a><br>
+&nbsp;&nbsp; <a href=""><b>OSI layer</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>IP</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>subnet</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>VLAN</b></a><br>
+&nbsp;&nbsp; <a href=""><b>routing</b></a><br>
+&nbsp;&nbsp; <a href=""><b>wireless</b></a><br>
 </p>
+
+
+#### Webdev &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
+
+
+#### IOT &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
+
+
+#### Proyek &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
