@@ -1,7 +1,7 @@
 # Proyek pertama 
 adalah membuat konfigurasi kode dengan menggunakan ansible. perangkat yang di manage adalah swith cisco berjumlah kurang lebih 28 perangkat. diberikan perintah untuk mengirim log ke log trap server dengan level severity errors.<br>
 
-## Kenapa ansible
+## Kenapa pakai ansible
 dengan banyaknya perangkat network yang di manage, akan sangat memakan waktu ketika perangkat makin bertambah. untuk mempersingkat sumber daya (tenaga dan waktu) maka dilipih alternatif menggunakan ansible. 
 selain kemudahan dalam me-manage banyaknya perangkat, untuk terkomunikasi ke berbagai perangkat cukup mudah karena ansible berkomunikasi dengan perangkat tsb melalui ssh (port standart ssh: 22).
 
