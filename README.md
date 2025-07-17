@@ -93,6 +93,5 @@ Bab Utama:
 #### Proyek &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
 
 <p>
-&nbsp;&nbsp; Proyek pertama adalah <a href="https://www.server-world.info/en/"><b>membuat konfigurasi kode</b></a> dengan menggunakan ansible. perangkat yang di manage adalah swith cisco berjumlah kurang lebih 28 perangkat. diberikan perintah untuk mengirim log ke log trap server dengan level severity errors.<br>
-&nbsp;&nbsp; <a href="https://www.linux.org/"><b>Ubuntu Server/ Debian</b></a> adalah distro/ turunan dari linux OS yang dirancang untuk penggunaan pada server.<br>
+&nbsp;&nbsp; Proyek pertama adalah <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/01-ansible-config-log-trap-cisco.md"><b>membuat konfigurasi kode</b></a> dengan menggunakan ansible. perangkat yang di manage adalah swith cisco berjumlah kurang lebih 28 perangkat. diberikan perintah untuk mengirim log ke log trap server dengan level severity errors.<br>
 </p>
