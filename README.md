@@ -104,4 +104,5 @@ Bab Utama:
 
 <p>
 &nbsp;&nbsp; Proyek pertama adalah <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/01-ansible-config-log-trap-cisco.md"><b>membuat konfigurasi kode</b></a> dengan menggunakan ansible. perangkat yang di manage adalah swith cisco berjumlah kurang lebih 28 perangkat. diberikan perintah untuk mengirim log ke log trap server dengan level severity errors.<br>
+&nbsp;&nbsp; Proyek kedua masih sama dengan tools yang sama <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/01-ansible-config-log-trap-cisco.md"><b>ansible</b></a> <br>
 </p>
