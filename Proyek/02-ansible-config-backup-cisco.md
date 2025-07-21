@@ -22,5 +22,7 @@ untuk setting inventory, kita butuh ip atau hostname managed node. managed node 
 
 ### Tahap ketiga : eksekusi perintah playbook dan inventory
 
+## Konklusi 
+dengan menggunakan ansible, dokumentasi pekerjaan menjadi lebih ringan. ketika dipadukan dengan cronjob di ubuntu dapat membuat otomasi proses yang dimana pekerjaan lebih efisien
 
 <a href="https://github.com/mindatama/tanampadi">ke beranda tanampadi</a>
