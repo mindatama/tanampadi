@@ -1,5 +1,5 @@
-# Proyek pertama 
-adalah membuat konfigurasi kode dengan menggunakan ansible. perangkat yang di manage adalah swith cisco berjumlah kurang lebih 28 perangkat. diberikan perintah untuk mengirim log ke log trap server dengan level severity errors.<br>
+# Proyek kedua
+adalah membuat konfigurasi kode dengan menggunakan ansible. perangkat yang di manage adalah swith cisco berjumlah kurang lebih 28 perangkat. diberikan perintah untuk membuat backup file running config pada cisco.<br>
 
 ## Kenapa pakai ansible
 dengan banyaknya perangkat network yang di manage, akan sangat memakan waktu ketika perangkat makin bertambah. untuk mempersingkat sumber daya (tenaga dan waktu) maka dilipih alternatif menggunakan ansible. 
@@ -22,10 +22,7 @@ untuk setting inventory, kita butuh ip atau hostname managed node. managed node 
 
 ### Tahap ketiga : eksekusi perintah playbook dan inventory
 
-## Konklusi
-dengan menggunakan ansible, dokumentasi pekerjaan menjadi lebih ringan. adapun ansible tower lebih mempermudah operasional dengan fitur yang diberikan, tapi perlu di kaji ulang untuk menggunakan ini karena ansible tower membutuhkan biaya supaya dapat terimplementasi.
-
-## Next proyek
-sebagai alternatir, untuk mendapatkan salah satu fitur asible tower yaitu rolebase access control next proyek kita akan mengkolaborasikan ansible dengan gitlab dengan enviroment tertutup (lokal) atau beroperasi tanpa koneksi ke internet. 
+## Konklusi 
+dengan menggunakan ansible, dokumentasi pekerjaan menjadi lebih ringan. ketika dipadukan dengan cronjob di ubuntu dapat membuat otomasi proses yang dimana pekerjaan lebih efisien
 
 <a href="https://github.com/mindatama/tanampadi">ke beranda tanampadi</a>
