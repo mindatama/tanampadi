@@ -22,5 +22,8 @@ untuk setting inventory, kita butuh ip atau hostname managed node. managed node 
 
 ### Tahap ketiga : eksekusi perintah playbook dan inventory
 
+## Konklusi
+dengan menggunakan ansible, dokumentasi pekerjaan menjadi lebih ringan. adapun ansible tower lebih mempermudah operasional dengan fitur yang diberikan, tapi perlu di kaji ulang untuk menggunakan ini karena ansible tower membutuhkan biaya supaya dapat terimplementasi.
+
 
 <a href="https://github.com/mindatama/tanampadi">ke beranda tanampadi</a>
