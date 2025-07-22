@@ -25,5 +25,7 @@ untuk setting inventory, kita butuh ip atau hostname managed node. managed node 
 ## Konklusi
 dengan menggunakan ansible, dokumentasi pekerjaan menjadi lebih ringan. adapun ansible tower lebih mempermudah operasional dengan fitur yang diberikan, tapi perlu di kaji ulang untuk menggunakan ini karena ansible tower membutuhkan biaya supaya dapat terimplementasi.
 
+## Next proyek
+sebagai alternatir, untuk mendapatkan salah satu fitur asible tower yaitu rolebase access control next proyek kita akan mengkolaborasikan ansible dengan gitlab dengan enviroment tertutup (lokal) atau beroperasi tanpa koneksi ke internet. 
 
 <a href="https://github.com/mindatama/tanampadi">ke beranda tanampadi</a>
