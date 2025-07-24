@@ -18,13 +18,24 @@ untuk setting inventory, kita butuh ip atau hostname managed node. managed node 
 dengan menamai file inventory dengan invcisco.ini pada penampakan gambar berikut
 
 ```bash
-# cat  >filename ... - overwrite the file
-# cat >>filename ... - append to a file
-cat > filename << __EOF__
-data data data
-__EOF__ tada tada tada
+[sw-cisco:children]
+sw-cisco-1-40
+ipr-swa-km38-38
+
+[sw-cisco-1-40]
+10.10.0.[1:40]
+
+[ipr-swa-km38-38]
+10.10.0.38
+
+[sw-cisco:vars]
+ansible_user=userciscokalian
+ansible_password=passwordciscokalian
+ansible_connection=network_cli
+ansible_network_os=ios
 ```
-  > This bypasses WAF filters for SSRF, open-redirect, etc where any IP as input gets blacklisted.
+  > ansible_user dan ansible_password disesuaikan dengan user atau password masing masing device kalian ya. 
+
 
 
 ### Tahap kedua : setting playbook
