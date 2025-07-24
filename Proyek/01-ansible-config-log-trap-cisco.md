@@ -64,9 +64,63 @@ ansible_network_os=ios
 ```
 
 ### Tahap kedua : setting playbook
+buat file .yaml dengan isi berikut untuk mengeksekusi tugas mengirim log ke log trap server dengan level severity errors
+```bash
+- name: log-trap-to-all-sw
+  hosts: sw-cisco-1-40
+  tasks:
+   - name: execute
+     ios_logging:
+       dest: trap
+       level: errors
+```
 
+mari kita bedah satu per satu kode diatas..
+
+``bash
+- name: log-trap-to-all-sw
+```
+kita membuat perintah dengan nama log-trap-to-all-sw
+
+```bash
+  host: sw-cisco-1-40
+```
+perintah tsb akan di eksekusi pada inventory mana saja, tentu iventory yang kita telah buat sebelumnya pada tahap pertama dengan nama sw-cisco-1-40
+
+```bash
+  tasks:
+   - name: execute
+     ios_logging:
+       dest: trap
+       level: errors
+```
+peritah ini berisi nama task dengan task ios_logging menggunakan variabel destinasi atau kebutuhannya: trap dan level atau severity (tingka keparahan): error
 
 ### Tahap ketiga : eksekusi perintah playbook dan inventory
+lanjut tahap terakhir yaitu perintah eksekusinya. kita menggunakan perintah berikut 
+```bash
+ ansible-playbook /etc/.../logging-trap-errors-cisco.yaml -i /etc/.../invcisco.ini
+```
+
+artinya kita menjalankan perintah ansible dengan playbook pada file di lokasi /etc/.../logging-trap-errors-cisco.yaml dan di eksekusi inventory node pada file di lokasi /etc/.../invcisco.ini . maka hasil yang muncul sebagai berikut : 
+
+<p align="center">
+  <a href="https://github.com/mindatama/tanampadi">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/WM.png" alt="Master">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/mindatama/tanampadi">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/WM.png" alt="Master">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/mindatama/tanampadi">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/WM.png" alt="Master">
+  </a>
+</p>
 
 ## Konklusi
 dengan menggunakan ansible, dokumentasi pekerjaan menjadi lebih ringan. adapun ansible tower lebih mempermudah operasional dengan fitur yang diberikan, tapi perlu di kaji ulang untuk menggunakan ini karena ansible tower membutuhkan biaya supaya dapat terimplementasi.
