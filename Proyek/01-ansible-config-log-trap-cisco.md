@@ -138,6 +138,17 @@ artinya kita menjalankan perintah ansible dengan playbook pada file di lokasi /e
   </a>
   <i>tampilan eksekusi perintah ansible log trap error dari atas ke bawah (5/5)</i>
 </p>
+<br>
+
+## Hasil 
+berikut sample hasil setelah di lakukan ekskusi perintah pada ansible dengan inventory switch cisco
+
+```bash
+!
+logging trap errors
+logging host ip-log-trap-server
+!
+```
 
 ## Konklusi
 dengan menggunakan ansible, dokumentasi pekerjaan menjadi lebih ringan. adapun ansible tower lebih mempermudah operasional dengan fitur yang diberikan, tapi perlu di kaji ulang untuk menggunakan ini karena ansible tower membutuhkan biaya supaya dapat terimplementasi.
