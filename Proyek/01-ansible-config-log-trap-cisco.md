@@ -15,6 +15,16 @@ ansible yang digunakan adalah versi 2.10.8 dengan config file tersetting di /etc
 
 ### Tahap pertama : setting inventory
 untuk setting inventory, kita butuh ip atau hostname managed node. managed node di proyek ini adalah swith cisco dengan range ip 10.10.0.1 hingga 10.10.0.40. disini ada ketidak cocokan data antar jumlah managed node switch cisco dengan range ip tsb, karena dalam range ip tsb belum sepenuhnya termanage oleh perangkat artinya beberapa ip masih belum digunakan ke dalam perangkat. untuk mempersingkat waktu dalam membuat inventory, maka digunakan range ip tsb saja. 
+dengan menamai file inventory dengan invcisco.ini pada penampakan gambar berikut
+
+```bash
+# cat  >filename ... - overwrite the file
+# cat >>filename ... - append to a file
+cat > filename << __EOF__
+data data data
+__EOF__ tada tada tada
+```
+  > This bypasses WAF filters for SSRF, open-redirect, etc where any IP as input gets blacklisted.
 
 
 ### Tahap kedua : setting playbook
