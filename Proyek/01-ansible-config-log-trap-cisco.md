@@ -128,7 +128,7 @@ artinya kita menjalankan perintah ansible dengan playbook pada file di lokasi /e
 <p align="center">
   <a href="https://github.com/mindatama/tanampadi">
     <img src="https://github.com/mindatama/tanampadi/blob/main/img/log%20trap%2004.png" alt="Logtrap-01">
-  </a>
+  </a><br>
   <i>tampilan eksekusi perintah ansible log trap error dari atas ke bawah (4/5)</i>
 </p>
 
