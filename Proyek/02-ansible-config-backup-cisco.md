@@ -15,6 +15,53 @@ ansible yang digunakan adalah versi 2.10.8 dengan config file tersetting di /etc
 
 ### Tahap pertama : setting inventory
 untuk setting inventory, kita butuh ip atau hostname managed node. managed node di proyek ini adalah swith cisco dengan range ip 10.10.0.1 hingga 10.10.0.40. disini ada ketidak cocokan data antar jumlah managed node switch cisco dengan range ip tsb, karena dalam range ip tsb belum sepenuhnya termanage oleh perangkat artinya beberapa ip masih belum digunakan ke dalam perangkat. untuk mempersingkat waktu dalam membuat inventory, maka digunakan range ip tsb saja. 
+dengan menamai file inventory dengan invcisco.ini pada penampakan gambar berikut
+
+```bash
+[sw-cisco:children]
+sw-cisco-1-40
+ipr-swa-km38-38
+
+[sw-cisco-1-40]
+10.10.0.[1:40]
+
+[ipr-swa-km38-38]
+10.10.0.38
+
+[sw-cisco:vars]
+ansible_user=user-cisco-kalian
+ansible_password=password-cisco-kalian
+ansible_connection=network_cli
+ansible_network_os=ios
+```
+  > ansible_user dan ansible_password disesuaikan dengan user atau password masing masing device kalian ya. 
+
+kita bedah satu persatu ya arti kode diatas.. 
+
+```bash
+[sw-cisco:children]
+sw-cisco-1-40
+ipr-swa-km38-38
+```
+artinya kita membuat penamaan [sw-cisco] untuk children atau anak dengan nama sw-cisco-1-40 dan ipr-swa-km38-38.
+
+dimana sw-cisco-1-40 adalah perangkat cisco yang memiliki ip dengan range dari 10.10.0.1 hingga 10.10.0.40 dan ipr-swa-km38-38 adalah perangkat cisco yang memiliki ip 10.10.0.38 spt gambar dibawah
+```bash
+[sw-cisco-1-40]
+10.10.0.[1:40]
+
+[ipr-swa-km38-38]
+10.10.0.38
+```
+
+lalu pada penamaan sw-cisco kita berikan variable user, password dan koneksi serta network os sesuai perangkat yang dimiliki spt gambar dibawah.. 
+```bash
+[sw-cisco:vars]
+ansible_user=user-cisco-kalian
+ansible_password=password-cisco-kalian
+ansible_connection=network_cli
+ansible_network_os=ios
+```
 
 
 ### Tahap kedua : setting playbook
