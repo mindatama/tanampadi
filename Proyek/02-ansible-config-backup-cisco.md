@@ -55,6 +55,7 @@ dimana sw-cisco-1-40 adalah perangkat cisco yang memiliki ip dengan range dari 1
 ```
 
 lalu pada penamaan sw-cisco kita berikan variable user, password dan koneksi serta network os sesuai perangkat yang dimiliki spt gambar dibawah.. 
+
 ```bash
 [sw-cisco:vars]
 ansible_user=user-cisco-kalian
@@ -63,9 +64,39 @@ ansible_connection=network_cli
 ansible_network_os=ios
 ```
 
-
 ### Tahap kedua : setting playbook
+buat file .yaml dengan isi berikut untuk mengeksekusi tugas membuat file backup running konfigurasi dan di simpan ke directory/ folder pada ftp server
+```bash
+- name: copy backup running-config
+  hosts: sw-cisco-1-40
+  tasks:
+  - name: backup ios config
+    cisco.ios.ios_config:
+      backup: true
+      backup_options:
+        filename: ""
+        dir_path: /srv/ftp/backup-cisco-config
+```
 
+mari kita bedah satu persatu kode diatas.. 
+
+```bash
+- name: copy backup running-config
+  hosts: sw-cisco-1-40
+```
+kode ini diartikan kita memberi nama pada eksekusi yang akan di buat akan di eksekusi pada host apa saja. terlihat host yang kita masukkan adalah sw-cisco-1-40
+
+```bash
+  tasks:
+  - name: backup ios config
+    cisco.ios.ios_config:
+      backup: true
+      backup_options:
+        filename: ""
+        dir_path: /srv/ftp/backup-cisco-config
+```
+perintah ini berisi task yang di eksekusi. 
+nama tasknya 
 
 ### Tahap ketiga : eksekusi perintah playbook dan inventory
 
