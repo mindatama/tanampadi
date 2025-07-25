@@ -95,10 +95,10 @@ kode ini diartikan kita memberi nama pada eksekusi yang akan di buat akan di eks
         filename: ""
         dir_path: /srv/ftp/backup-cisco-config
 ```
-perintah ini berisi task yang di eksekusi. 
-nama tasknya 
+perintah ini berisi task yang di eksekusi. di atas ada 1 task dengan nama backup ios config mengeksekusi perintah backup dengan file name default bysystem, yaitu ip dan tanggal jam eksekusi, lalu diarahkan ke lokasi folder ftp server di /srv/ftp/backup-cisco-config
 
 ### Tahap ketiga : eksekusi perintah playbook dan inventory
+
 
 ## Konklusi 
 dengan menggunakan ansible, dokumentasi pekerjaan menjadi lebih ringan. ketika dipadukan dengan cronjob di ubuntu dapat membuat otomasi proses yang dimana pekerjaan lebih efisien
