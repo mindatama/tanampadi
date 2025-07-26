@@ -114,32 +114,43 @@ artinya kita menjalankan perintah ansbile dengan playbook pada file di lokasi /e
 <br>
 <p align="center">
   <a href="https://github.com/mindatama/tanampadi">
-    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2002.png" alt="Backupconfig-01">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2002.png" alt="Backupconfig-02">
   </a>
   <i>tampilan eksekusi perintah ansible backup config dari atas ke bawah (2/5)</i>
 </p>
 <br>
 <p align="center">
   <a href="https://github.com/mindatama/tanampadi">
-    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2003.png" alt="Backupconfig-01">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2003.png" alt="Backupconfig-03">
   </a>
   <i>tampilan eksekusi perintah ansible backup config dari atas ke bawah (3/5)</i>
 </p>
 <br>
 <p align="center">
   <a href="https://github.com/mindatama/tanampadi">
-    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2004.png" alt="Backupconfig-01">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2004.png" alt="Backupconfig-04">
   </a>
   <i>tampilan eksekusi perintah ansible backup config dari atas ke bawah (4/5)</i>
 </p>
 <br>
 <p align="center">
   <a href="https://github.com/mindatama/tanampadi">
-    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2005.png" alt="Backupconfig-01">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2005.png" alt="Backupconfig-05">
   </a>
   <i>tampilan eksekusi perintah ansible backup config dari atas ke bawah (5/5)</i>
 </p>
 <br>
+
+## Hasil 
+berikut sample hasil setelah di lakukan ekskusi perintah pada ansible dengan inventory switch cisco
+<p align="center">
+  <a href="https://github.com/mindatama/tanampadi">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2006.png" alt="Backupconfig-06">
+  </a>
+  <i>tampilan hasil perintah ansible backup config dengan menghasikan file backup dari masing masing perangkat cisco</i>
+</p>
+<br>
+
 
 ## Konklusi 
 dengan menggunakan ansible, dokumentasi pekerjaan menjadi lebih ringan. ketika dipadukan dengan cronjob di ubuntu dapat membuat otomasi proses yang dimana pekerjaan lebih efisien
