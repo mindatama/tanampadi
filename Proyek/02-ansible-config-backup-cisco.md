@@ -146,7 +146,7 @@ berikut sample hasil setelah di lakukan ekskusi perintah pada ansible dengan inv
 <p align="center">
   <a href="https://github.com/mindatama/tanampadi">
     <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2006.png" alt="Backupconfig-06">
-  </a>
+  </a><br>
   <i>tampilan hasil perintah ansible backup config dengan menghasikan file backup dari masing masing perangkat cisco</i>
 </p>
 <br>
