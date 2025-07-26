@@ -110,28 +110,28 @@ artinya kita menjalankan perintah ansible dengan playbook pada file di lokasi /e
   </a>
   <i>tampilan eksekusi perintah ansible log trap error dari atas ke bawah (1/5)</i>
 </p>
-
+<br>
 <p align="center">
   <a href="https://github.com/mindatama/tanampadi">
     <img src="https://github.com/mindatama/tanampadi/blob/main/img/log%20trap%2002.png" alt="Logtrap-01">
   </a>
   <i>tampilan eksekusi perintah ansible log trap error dari atas ke bawah (2/5)</i>
 </p>
-
+<br>
 <p align="center">
   <a href="https://github.com/mindatama/tanampadi">
     <img src="https://github.com/mindatama/tanampadi/blob/main/img/log%20trap%2003.png" alt="Logtrap-01">
   </a>
   <i>tampilan eksekusi perintah ansible log trap error dari atas ke bawah (3/5)</i>
 </p>
-
+<br>
 <p align="center">
   <a href="https://github.com/mindatama/tanampadi">
     <img src="https://github.com/mindatama/tanampadi/blob/main/img/log%20trap%2004.png" alt="Logtrap-01">
   </a><br>
   <i>tampilan eksekusi perintah ansible log trap error dari atas ke bawah (4/5)</i>
 </p>
-
+<br>
 <p align="center">
   <a href="https://github.com/mindatama/tanampadi">
     <img src="https://github.com/mindatama/tanampadi/blob/main/img/log%20trap%2005.png" alt="Logtrap-01">
