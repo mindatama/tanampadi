@@ -98,7 +98,48 @@ kode ini diartikan kita memberi nama pada eksekusi yang akan di buat akan di eks
 perintah ini berisi task yang di eksekusi. di atas ada 1 task dengan nama backup ios config mengeksekusi perintah backup dengan file name default bysystem, yaitu ip dan tanggal jam eksekusi, lalu diarahkan ke lokasi folder ftp server di /srv/ftp/backup-cisco-config
 
 ### Tahap ketiga : eksekusi perintah playbook dan inventory
+lanjut tahap akhir yaitu perintah eksekusi playbook dan inventory
 
+```bash
+ansible-playbook /etc/.../playbackup-test.yaml -i /etc/.../invcisco.ini
+```
+artinya kita menjalankan perintah ansbile dengan playbook pada file di lokasi /etc/.../playbackup-test.yaml dengan inventory pada file di lokasi /etc/.../invcisco.ini maka akan muncul hasil di 5 gambar sambung dibawah
+
+<p align="center">
+  <a href="https://github.com/mindatama/tanampadi">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2001.png" alt="Backupconfig-01">
+  </a>
+  <i>tampilan eksekusi perintah ansible backup config dari atas ke bawah (1/5)</i>
+</p>
+<br>
+<p align="center">
+  <a href="https://github.com/mindatama/tanampadi">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2002.png" alt="Backupconfig-01">
+  </a>
+  <i>tampilan eksekusi perintah ansible backup config dari atas ke bawah (2/5)</i>
+</p>
+<br>
+<p align="center">
+  <a href="https://github.com/mindatama/tanampadi">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2003.png" alt="Backupconfig-01">
+  </a>
+  <i>tampilan eksekusi perintah ansible backup config dari atas ke bawah (3/5)</i>
+</p>
+<br>
+<p align="center">
+  <a href="https://github.com/mindatama/tanampadi">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2004.png" alt="Backupconfig-01">
+  </a>
+  <i>tampilan eksekusi perintah ansible backup config dari atas ke bawah (4/5)</i>
+</p>
+<br>
+<p align="center">
+  <a href="https://github.com/mindatama/tanampadi">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2005.png" alt="Backupconfig-01">
+  </a>
+  <i>tampilan eksekusi perintah ansible backup config dari atas ke bawah (5/5)</i>
+</p>
+<br>
 
 ## Konklusi 
 dengan menggunakan ansible, dokumentasi pekerjaan menjadi lebih ringan. ketika dipadukan dengan cronjob di ubuntu dapat membuat otomasi proses yang dimana pekerjaan lebih efisien
