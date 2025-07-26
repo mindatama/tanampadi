@@ -152,7 +152,7 @@ berikut sample hasil setelah di lakukan ekskusi perintah pada ansible dengan inv
 <br>
 <p align="center">
   <a href="https://github.com/mindatama/tanampadi">
-    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2006.png" alt="Backupconfig-06">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2007.png" alt="Backupconfig-07">
   </a><br>
   <i>tampilan hasil perintah ansible backup config berisi running konfigurasi perangkat switch cisco di dalam satu file</i></p>
 
