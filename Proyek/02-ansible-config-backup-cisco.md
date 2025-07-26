@@ -150,7 +150,11 @@ berikut sample hasil setelah di lakukan ekskusi perintah pada ansible dengan inv
   <i>tampilan hasil perintah ansible backup config dengan menghasikan file backup dari masing masing perangkat cisco</i>
 </p>
 <br>
-
+<p align="center">
+  <a href="https://github.com/mindatama/tanampadi">
+    <img src="https://github.com/mindatama/tanampadi/blob/main/img/backup%20config%2006.png" alt="Backupconfig-06">
+  </a><br>
+  <i>tampilan hasil perintah ansible backup config berisi running konfigurasi perangkat switch cisco di dalam satu file</i></p>
 
 ## Konklusi 
 dengan menggunakan ansible, dokumentasi pekerjaan menjadi lebih ringan. ketika dipadukan dengan cronjob di ubuntu dapat membuat otomasi proses yang dimana pekerjaan lebih efisien
