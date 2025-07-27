@@ -45,9 +45,10 @@ Bab Utama:
 ##### :black_small_square: Virtual Machine
 
 <p>
-&nbsp;&nbsp; <a href=""><b>referensi VM</b></a> dengan pengenalan dasar virtual machine dan pemahaman lanjutan<br>
-&nbsp;&nbsp; <a href=""><b>hypervisor type 1 (bare metal)</b></a> <br>
-&nbsp;&nbsp; <a href=""><b>hypervisor type 2 (Hosted)</b></a> <br>
+&nbsp;&nbsp; <a href="https://vm.ibm.com/education/roadmaps/all.html"><b>referensi VM</b></a> dengan pengenalan dasar virtual machine dan pemahaman lanjutan. sebelum jauh melangkah, alasan dibalik adanya virtual machine adalah kebutuhan akan running berbagai service (aplikasi) di dalam satu enviroment dalam server bare metal. dengan munculnya vm, tiap service dijalankan pada enviroment terpisah dalam server bare metal. cara kerja vm adalah membagi resource bare metal sehingga dapat mengakomodir kebutuhan berbagai service dengan enviroment terpisah antar service.<br>
+pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bare metal dan menjalankan service dengan enviroment terpisah.. 
+&nbsp;&nbsp; <a href=""><b>hypervisor type 1 (bare metal)</b></a> berjalan langsung di bare metal tanpa membutuhkan OS untuk menjalankan servicenya. <br>
+&nbsp;&nbsp; <a href=""><b>hypervisor type 2 (Hosted)</b></a> berjalan sebagai aplikasi yang membutuhkan OS. contoh virtualbox<br>
 </p>
 
 ##### :black_small_square: Infrastruktur Monitoring
