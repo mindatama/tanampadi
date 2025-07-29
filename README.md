@@ -34,12 +34,12 @@ Bab Utama:
 &nbsp;&nbsp; <a href="https://www.microsoft.com/en-us/windows-server"><b>Windows Server</b></a> adalah sistem operasi yang dikembangkan oleh microsoft untuk digunakan pada server.<br>
 </p>
 
-##### :black_small_square: pengetahuan terminal
+##### :black_small_square: Versioning Control system
 
 <p>
-&nbsp;&nbsp; <a href=""><b>proses monitoring</b></a> <br>
-&nbsp;&nbsp; <a href=""><b>performa monitoring</b></a> <br>
-&nbsp;&nbsp; <a href=""><b>versioning control system</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>Git</b></a> <br>
+&nbsp;&nbsp; <a href=""><b></b></a> <br>
+&nbsp;&nbsp; <a href=""><b></b></a> <br>
 </p>
 
 ##### :black_small_square: Virtual Machine
