@@ -34,14 +34,6 @@ Bab Utama:
 &nbsp;&nbsp; <a href="https://www.microsoft.com/en-us/windows-server"><b>Windows Server</b></a> adalah sistem operasi yang dikembangkan oleh microsoft untuk digunakan pada server.<br>
 </p>
 
-##### :black_small_square: Versioning Control system
-
-<p>
-&nbsp;&nbsp; <a href=""><b>Git</b></a> <br>
-&nbsp;&nbsp; <a href=""><b></b></a> <br>
-&nbsp;&nbsp; <a href=""><b></b></a> <br>
-</p>
-
 ##### :black_small_square: Virtual Machine
 
 <p>
@@ -57,6 +49,14 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 &nbsp;&nbsp; setelah berjalan aplikasi yang telah terinstall, perlu maintenance infrastruktur yang ada dengan salah satu cara monitoring. berbagai tools monitoring yang dapat di implementasikan untuk memudahkan provide pelayanan.<br>
 &nbsp;&nbsp; salah satu tools yang digunakan yaitu <a href="https://www.solarwinds.com/network-performance-monitor"><b>solarwind</b></a> <br>
 &nbsp;&nbsp; berikutnya <a href="https://www.solarwinds.com/kiwi-syslog-server"><b>kiwi log server</b></a> adalah produk turunan dari solarwind yang memiliki service log trap atau pengumpul log dari berbagai perangkat. log yang di kumpulkan memiliki berbagai severity atau tingkat keparahan dan data log tsb di gunakan untuk melakukan troubleshot pada perangkat yang mengirim log<br>
+</p>
+
+##### :black_small_square: Versioning Control system
+
+<p>
+&nbsp;&nbsp; <a href=""><b>Git</b></a> <br>
+&nbsp;&nbsp; <a href=""><b></b></a> <br>
+&nbsp;&nbsp; <a href=""><b></b></a> <br>
 </p>
 
 ##### :black_small_square: Apps Pendukung
