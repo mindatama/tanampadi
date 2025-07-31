@@ -80,8 +80,8 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 &nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=dV8mjZd1OtU"><b>OSI layer</b></a> <br>
 &nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=F5rni9fr1yE"><b>TCP/IP</b></a> <br>
 &nbsp;&nbsp; <a href="https://www.linuxjournal.com/article/6287"><b>subnet</b></a> <br>
-&nbsp;&nbsp; <a href=""><b>VLAN</b></a><br>
-&nbsp;&nbsp; <a href=""><b>routing</b></a><br>
+&nbsp;&nbsp; <a href="https://www.idn.id/configure-and-verify-virtual-local-area-network-vlans/"><b>VLAN</b></a><br>
+&nbsp;&nbsp; <a href="https://www.idn.id/overview-static-dynamic-routing/"><b>routing</b></a><br>
 &nbsp;&nbsp; <a href=""><b>wireless</b></a><br>
 </p>
 
