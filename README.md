@@ -68,7 +68,8 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 &nbsp;&nbsp; <a href="https://www.cyberark.com/products/remote-access/"><b>PAM remote access cyberark</b></a> <br>
 &nbsp;&nbsp; <a href="https://phpipam.net/"><b>PHPipam</b></a> <br>
 &nbsp;&nbsp; <a href="https://www.synology.com/en-uk"><b>NAS</b></a> atau network attach storage adalah <br>
-&nbsp;&nbsp; <a href=""><b>Manage VM</b></a> <br>
+&nbsp;&nbsp; <a href="https://documentation.solarwinds.com/"><b>Solarwind</b></a> <br>
+&nbsp;&nbsp; <a href="https://thwack.solarwinds.com/products/kiwi-syslog/"><b>Kiwi Syslog</b></a> <br>
 </p>
 
 #### Network &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
