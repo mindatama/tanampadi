@@ -18,7 +18,7 @@ Bab Utama:
 - **[Sysadm](#Sysadm-DaftarIsi)**
 - **[Network](#network-DaftarIsi)**
 - **[webdev](#webdev-DaftarIsi)**
-- **[IOT](#iot-DaftarIsi)**
+<!-- - **[IOT](#iot-DaftarIsi)** -->
 - **[Proyek](#proyek-DaftarIsi)**
 
 
@@ -54,9 +54,9 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 ##### :black_small_square: Versioning Control system
 
 <p>
-&nbsp;&nbsp; <a href=""><b>Git</b></a> <br>
-&nbsp;&nbsp; <a href=""><b></b></a> <br>
-&nbsp;&nbsp; <a href=""><b></b></a> <br>
+&nbsp;&nbsp; <a href="https://git-scm.com"><b>Git</b></a> <br>
+&nbsp;&nbsp; <a href="https://github.com"><b>Github</b></a> <br>
+&nbsp;&nbsp; <a href="https://about.gitlab.com"><b>Gitlab</b></a> <br>
 </p>
 
 ##### :black_small_square: Apps Pendukung
@@ -94,13 +94,13 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 &nbsp;&nbsp; <a href=""><b>materi ketiga</b></a><br>
 </p>
 
-#### IOT &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
+<!-- #### IOT &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
 
 <p>
 &nbsp;&nbsp; <a href=""><b>materi pertama</b></a><br>
 &nbsp;&nbsp; <a href=""><b>materi kedua</b></a><br>
 &nbsp;&nbsp; <a href=""><b>materi ketiga</b></a><br>
-</p>
+</p> -->
 
 #### Proyek &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
 
