@@ -86,7 +86,7 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 </p>
 
 
-#### Webdev &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
+<!-- #### Webdev &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
 
 <p>
 &nbsp;&nbsp; <a href=""><b>materi pertama</b></a><br>
@@ -94,7 +94,7 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 &nbsp;&nbsp; <a href=""><b>materi ketiga</b></a><br>
 </p>
 
-<!-- #### IOT &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
+#### IOT &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
 
 <p>
 &nbsp;&nbsp; <a href=""><b>materi pertama</b></a><br>
@@ -106,5 +106,6 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 
 <p>
 &nbsp;&nbsp; Proyek pertama adalah <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/01-ansible-config-log-trap-cisco.md"><b>membuat konfigurasi kode</b></a> dengan menggunakan ansible. perangkat yang di manage adalah swith cisco berjumlah kurang lebih 28 perangkat. diberikan perintah untuk mengirim log ke log trap server dengan level severity errors.<br>
+<br>
 &nbsp;&nbsp; Proyek kedua masih sama dengan tools yang sama menggunakan <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/01-ansible-config-log-trap-cisco.md"><b>ansible</b></a> namun dengan pemanfaatan berbeda. proyek sebelumnya <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/01-ansible-config-log-trap-cisco.md"><b>membuat konfigurasi kode</b></a> namun proyek kedua ini <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/02-ansible-config-backup-cisco.md"><b>membuat backup configurasi</b></a> perangkat switch cisco berjumlah kurang lebih 28 perangkat. diberikan perintah untuk membackup konfigurasi ke dalam file dan menyimpannya dalam folder yang telah ditentukan.<br>
 </p>
