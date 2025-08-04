@@ -17,8 +17,8 @@ Bab Utama:
 
 - **[Sysadm](#Sysadm-DaftarIsi)**
 - **[Network](#network-DaftarIsi)**
-- **[webdev](#webdev-DaftarIsi)**
-<!-- - **[IOT](#iot-DaftarIsi)** -->
+<!-- - **[webdev](#webdev-DaftarIsi)**
+- **[IOT](#iot-DaftarIsi)** -->
 - **[Proyek](#proyek-DaftarIsi)**
 
 
@@ -37,7 +37,7 @@ Bab Utama:
 ##### :black_small_square: Virtual Machine
 
 <p>
-&nbsp;&nbsp; <a href="https://vm.ibm.com/education/roadmaps/all.html"><b>referensi VM</b></a> dengan pengenalan dasar virtual machine dan pemahaman lanjutan. sebelum jauh melangkah, alasan dibalik adanya virtual machine adalah kebutuhan akan running berbagai service (aplikasi) di dalam satu enviroment dalam server bare metal. dengan munculnya vm, tiap service dijalankan pada enviroment terpisah dalam server bare metal. cara kerja vm adalah membagi resource bare metal sehingga dapat mengakomodir kebutuhan berbagai service dengan enviroment terpisah antar service.<br>
+&nbsp;&nbsp; <a href="https://vm.ibm.com/education/roadmaps/all.html"><b>referensi VM</b></a> dengan pengenalan dasar virtual machine. sebelum jauh melangkah, alasan dibalik adanya virtual machine adalah kebutuhan akan running berbagai service (aplikasi) di dalam satu enviroment dalam server bare metal. dengan munculnya vm, tiap service dijalankan pada enviroment terpisah dalam server bare metal. cara kerja vm adalah membagi resource bare metal sehingga dapat mengakomodir kebutuhan berbagai service dengan enviroment terpisah antar service.<br>
 pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bare metal dan menjalankan service dengan enviroment terpisah.. <br>
 &nbsp;&nbsp; <a href=""><b>hypervisor type 1 (bare metal)</b></a> berjalan langsung di bare metal tanpa membutuhkan OS untuk menjalankan servicenya. <br>
 &nbsp;&nbsp; <a href=""><b>hypervisor type 2 (Hosted)</b></a> berjalan sebagai aplikasi yang membutuhkan OS. contoh virtualbox<br>
@@ -46,7 +46,7 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 ##### :black_small_square: Infrastruktur Monitoring
 
 <p>
-&nbsp;&nbsp; setelah berjalan aplikasi yang telah terinstall, perlu maintenance infrastruktur yang ada dengan salah satu cara monitoring. berbagai tools monitoring yang dapat di implementasikan untuk memudahkan provide pelayanan.<br>
+&nbsp;&nbsp; setelah berjalan, aplikasi yang telah terinstall perlu maintenance infrastruktur yang ada dengan salah satu cara monitoring. berbagai tools monitoring yang dapat di implementasikan untuk memudahkan provide pelayanan.<br>
 &nbsp;&nbsp; salah satu tools yang digunakan yaitu <a href="https://www.solarwinds.com/network-performance-monitor"><b>solarwind</b></a> <br>
 &nbsp;&nbsp; berikutnya <a href="https://www.solarwinds.com/kiwi-syslog-server"><b>kiwi log server</b></a> adalah produk turunan dari solarwind yang memiliki service log trap atau pengumpul log dari berbagai perangkat. log yang di kumpulkan memiliki berbagai severity atau tingkat keparahan dan data log tsb di gunakan untuk melakukan troubleshot pada perangkat yang mengirim log<br>
 </p>
@@ -107,5 +107,5 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 <p>
 &nbsp;&nbsp; Proyek pertama adalah <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/01-ansible-config-log-trap-cisco.md"><b>membuat konfigurasi kode</b></a> dengan menggunakan ansible. perangkat yang di manage adalah swith cisco berjumlah kurang lebih 28 perangkat. diberikan perintah untuk mengirim log ke log trap server dengan level severity errors.<br>
 <br>
-&nbsp;&nbsp; Proyek kedua masih sama dengan tools yang sama menggunakan <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/01-ansible-config-log-trap-cisco.md"><b>ansible</b></a> namun dengan pemanfaatan berbeda. proyek sebelumnya <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/01-ansible-config-log-trap-cisco.md"><b>membuat konfigurasi kode</b></a> namun proyek kedua ini <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/02-ansible-config-backup-cisco.md"><b>membuat backup configurasi</b></a> perangkat switch cisco berjumlah kurang lebih 28 perangkat. diberikan perintah untuk membackup konfigurasi ke dalam file dan menyimpannya dalam folder yang telah ditentukan.<br>
+&nbsp;&nbsp; Proyek kedua masih sama dengan tools yang sama menggunakan ansible namun dengan pemanfaatan berbeda. proyek sebelumnya <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/01-ansible-config-log-trap-cisco.md"><b>membuat konfigurasi kode</b></a> namun proyek kedua ini <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/02-ansible-config-backup-cisco.md"><b>membuat backup configurasi</b></a> perangkat switch cisco berjumlah kurang lebih 28 perangkat. diberikan perintah untuk membackup konfigurasi ke dalam file dan menyimpannya dalam folder yang telah ditentukan.<br>
 </p>
