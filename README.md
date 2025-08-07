@@ -54,6 +54,7 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 ##### :black_small_square: Versioning Control system
 
 <p>
+&nbsp;&nbsp; digunakan untuk merekam perubahan file dari waktu ke waktu sehingga dapat melihat kembali perubahan dari sebelumnya (ke versi tertentu). version control juga dapat digunakan untuk berkolaborasi antar pengguna di proyek yang sama. tools version control berikut:<br>
 &nbsp;&nbsp; <a href="https://git-scm.com"><b>Git</b></a> <br>
 &nbsp;&nbsp; <a href="https://github.com"><b>Github</b></a> <br>
 &nbsp;&nbsp; <a href="https://about.gitlab.com"><b>Gitlab</b></a> <br>
