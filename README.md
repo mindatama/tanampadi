@@ -79,12 +79,13 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 
 <p>
 &nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=dV8mjZd1OtU"><b>OSI layer</b></a> <br>
-&nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=dV8mjZd1OtU"><b>MAC Adress</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>MAC Adress</b></a> <br>
 &nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=F5rni9fr1yE"><b>IP Address</b></a> <br>
 &nbsp;&nbsp; <a href="https://www.linuxjournal.com/article/6287"><b>subnetting</b></a> <br>
-&nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=dV8mjZd1OtU"><b>IP protocol</b></a> <br>
+&nbsp;&nbsp; <a href=""><b>IP protocol</b></a> <br>
 &nbsp;&nbsp; <a href="https://www.idn.id/configure-and-verify-virtual-local-area-network-vlans/"><b>VLAN</b></a><br>
 &nbsp;&nbsp; <a href="https://www.idn.id/overview-static-dynamic-routing/"><b>routing</b></a><br>
+&nbsp;&nbsp; <a href=""><b>DNS</b></a><br>
 &nbsp;&nbsp; <a href=""><b>wireless</b></a><br>
 </p>
 
