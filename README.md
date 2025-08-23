@@ -31,7 +31,7 @@ Bab Utama:
 <p>
 &nbsp;&nbsp; <a href="https://www.server-world.info/en/"><b>refrensi instalasi server</b></a> dengan menggunakan berbagai sistem operasi. linux, windows, freebsd<br>
 &nbsp;&nbsp; <a href="https://www.linux.org/"><b>Ubuntu Server/ Debian</b></a> adalah distro/ turunan dari linux OS yang dirancang untuk penggunaan pada server.<br>
-&nbsp;&nbsp; <a href="https://www.microsoft.com/en-us/windows-server"><b>Windows Server</b></a> adalah sistem operasi yang dikembangkan oleh microsoft untuk digunakan pada server.<br>
+&nbsp;&nbsp; <a href="https://www.microsoft.com/en-us/windows-server"><b>Windows Server</b></a> adalah sistem operasi yang dikembangkan oleh microsoft untuk digunakan pada server.<br><br>
 </p>
 
 ##### :black_small_square: Virtual Machine
