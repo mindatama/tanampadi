@@ -5,6 +5,9 @@ adalah membuat konfigurasi kode dengan menggunakan ansible. perangkat yang di ma
 dengan banyaknya perangkat network yang di manage, akan sangat memakan waktu ketika perangkat makin bertambah. untuk mempersingkat sumber daya (tenaga dan waktu) maka dilipih alternatif menggunakan ansible. 
 selain kemudahan dalam me-manage banyaknya perangkat, untuk terkomunikasi ke berbagai perangkat cukup mudah karena ansible berkomunikasi dengan perangkat tsb melalui ssh (port standart ssh: 22).
 
+## Manfaat
+tentu dengan satu perintah ansible playbook yang sebelumnya telah kita setting dapat meningkatkan produktifitas dalam menjalankan aktifikas backup konfigurasi perangkat switch cisco lebih efisien. pun semakin bertambahnya perangkat yang di manage maka semakin efisien hasil yang diperoleh.
+
 ## Ikuti cara settingnya
 first thing first, ansible telah terinstall dan siap digunakan. arti siap digunakan adalah ansible sudah dapat dikonfigurasi sesuai kebutuhan serta dependensi atau library pendukung telah terpasang. 
 ada 3 tahap untuk mengkonfigurasi ansible. setting inventory, setting playbook dan eksekusi playbook dan inventory dengan perintah yang sesuai kebutuhan. 
