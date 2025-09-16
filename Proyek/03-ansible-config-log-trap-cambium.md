@@ -18,3 +18,4 @@ ansible yang digunakan adalah versi 2.10.8 dengan config file tersetting di /etc
 untuk setting inventory, kita butuh ip atau hostname managed node. managed node di proyek ini adalah access point cambium.
 langkah awal adalah memastikan ansible telah terinstall dan berjalan dengan lancar (siap digunakan). 
 ada beberapa tahap untuk mengkonfigurasi ansible
+
