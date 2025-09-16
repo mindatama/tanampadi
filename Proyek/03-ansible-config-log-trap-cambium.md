@@ -6,3 +6,4 @@ karena dengan banyaknya perangkat cambium sebagai wireless backhaul ataupun poin
 
 ## Ikuti langkah dan settingnya
 langkah awal adalah memastikan ansible telah terinstall dan berjalan dengan lancar (siap digunakan). 
+ada beberapa tahap untuk mengkonfigurasi ansible
