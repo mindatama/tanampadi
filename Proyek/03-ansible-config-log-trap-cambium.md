@@ -19,3 +19,4 @@ untuk setting inventory, kita butuh ip atau hostname managed node. managed node 
 langkah awal adalah memastikan ansible telah terinstall dan berjalan dengan lancar (siap digunakan). 
 
 ### Tahap kedua : setting playbook
+tahap kedua ini
