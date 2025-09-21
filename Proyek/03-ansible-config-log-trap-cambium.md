@@ -20,3 +20,5 @@ langkah awal adalah memastikan ansible telah terinstall dan berjalan dengan lanc
 
 ### Tahap kedua : setting playbook
 tahap kedua ini
+
+### Tahap ketiga : eksekusi 
