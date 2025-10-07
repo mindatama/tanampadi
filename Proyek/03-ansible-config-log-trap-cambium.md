@@ -25,3 +25,4 @@ tahap kedua ini
 pada tahap ketiga ini
 
 ### Kesimpulan 
+dengan tahapan yang telah dilalui tersebut, dapat disimpulkan
