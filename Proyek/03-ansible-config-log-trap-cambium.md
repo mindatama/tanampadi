@@ -22,7 +22,7 @@ langkah awal adalah memastikan ansible telah terinstall dan berjalan dengan lanc
 tahap kedua ini
 
 ### Tahap ketiga : eksekusi 
-pada tahap ketiga ini
+pada tahap ketiga ini berisi
 
 ### Kesimpulan 
 dengan tahapan yang telah dilalui tersebut, dapat disimpulkan
