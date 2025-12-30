@@ -17,9 +17,9 @@ Bab Utama:
 
 - **[Sysadm](#Sysadm-DaftarIsi)**
 - **[Network](#network-DaftarIsi)**
+- **[Proyek](#proyek-DaftarIsi)**
 <!-- - **[webdev](#webdev-DaftarIsi)**
 - **[IOT](#iot-DaftarIsi)** -->
-- **[Proyek](#proyek-DaftarIsi)**
 
 
 ## &nbsp;Tanampadi (Isi tiap Bab)
