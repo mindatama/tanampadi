@@ -18,6 +18,7 @@ Bab Utama:
 - **[Sysadm](#Sysadm-DaftarIsi)**
 - **[Network](#network-DaftarIsi)**
 - **[Proyek](#proyek-DaftarIsi)**
+- **[sertifikat](#Sertifikat-DaftarIsi)**
 <!-- - **[webdev](#webdev-DaftarIsi)**
 - **[IOT](#iot-DaftarIsi)** -->
 
@@ -117,3 +118,7 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 &nbsp;&nbsp; Proyek ketiga masih sama lagi dengan tools ansible namun dengan pemanfaatan berbeda. membuat configutasi backup dengan perangkat lain, cambium wireless.
 </p>
 <br>
+
+#### Sertifikat &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
+<br>
+&nbsp;&nbsp; pada materi linux fondation, akan diberikan informasi mengenai komponen pembentuk linux. komponen inti yaitu kernel, sebagai jembatan penghubung hardware dan software untuk menjalankan fungsi dan memproses perintah. ada 3 (distribusi linux) turunan utama dari kernel, debian yang memiliki cabang ubuntu. rhel (red hat enterprise linux) cabang centos dan fedora. dan suse dengan turunan sles dan open suse. serta banyak turunan lainnya. <br>
