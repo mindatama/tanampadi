@@ -115,7 +115,7 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 &nbsp;&nbsp; Proyek kedua masih sama dengan tools yang sama menggunakan ansible namun dengan pemanfaatan berbeda. proyek sebelumnya <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/01-ansible-config-log-trap-cisco.md"><b>membuat konfigurasi kode</b></a> namun proyek kedua ini <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/02-ansible-config-backup-cisco.md"><b>membuat backup configurasi</b></a> perangkat switch cisco berjumlah kurang lebih 28 perangkat. diberikan perintah untuk membackup konfigurasi ke dalam file dan menyimpannya dalam folder yang telah ditentukan.<br>
 </p>
 <p>
-&nbsp;&nbsp; Proyek ketiga masih sama lagi dengan tools ansible namun dengan pemanfaatan berbeda. membuat configutasi backup dengan perangkat lain, cambium wireless.
+&nbsp;&nbsp; Proyek ketiga masih sama lagi dengan tools ansible namun dengan pemanfaatan berbeda. membuat configutasi backup dengan perangkat lain, cambium wireless. dan harus tertunda dahulu karena dari sumber yang ada ansible hanya mengcover switch dan router, belum merambah ke access point os.
 </p>
 <br>
 
