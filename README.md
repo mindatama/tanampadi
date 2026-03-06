@@ -126,14 +126,15 @@ kesimpulan dari proyek ketiga belum dapat diimplementasikan karena ansible belum
 &nbsp;&nbsp; hal pertama adalah menginstall linux di laptop atau komputer yang dipakai, karena akan banyak tugas yang membutuhkan os linux. instalasi os linux dapat install langsung ke perangkat atau menggunakan virtual machine. pilih distro yang akan digunakan. <br>
 terdapat 3 distribution family pada linux yaitu: redhat, debian dan suse. <br>
 ketika menelusuri terminologi linux, kita akan bertemu dengan istilah yang kurang familiar berikut<br>
-
-- **[Kernel](#linux-kernel)**
-- **[distribution](#linux-distribution)**
-- **[boot loader](#linux-boot-loader)**
-- **[service](#linux-service)**
-- **[boot loader](#linux-filesystem)**
-- **[X window system](#linux-xwindow-system)**
-- **[desktop enviroment](#linux-desktop-enviroment)**
-- **[command line](#linux-command-line)**
-
+<p>
+&nbsp;&nbsp; Kernel adalah penghubung antara hardware dan aplikasi contoh linux kernel <br>
+&nbsp;&nbsp; distribution atau distro adalah kumpulan software yang membentu sebuah OS linux dasar contoh redhat enterprise linux, fedora, ubuntu dan gentoo<br>
+&nbsp;&nbsp; boot loader adalah program yang menjalankan OS contoh: GRUB, ISOLINUX
+&nbsp;&nbsp; service aadalah program yang berjalan di background process. init : httpd (web server), ftpd (ftp server), named (name server), dhcpd (dhcp server) <br>
+&nbsp;&nbsp; filesystem adalah metode untuk storing dan organize file, contoh: ext3, ext4, fat, xfs dan btrfs <br>
+&nbsp;&nbsp; X window system adalah sistem penyedia tools standart dan protokol untuk membangun grafic user interface di hampir seluruh sistem linux. contoh: gui= desktop (kde,gnome,xfce) ; windows manager ; x windows system/ x11. console= cli/shell ; kernel ; hardware <br>
+&nbsp;&nbsp; desktop enviroment adalah gui (grafical user interface) dalam os, contoh: gnome, kde, xfce, fluxbox
+&nbsp;&nbsp; command line adalah interface untuk ketik perintah dalam os
+&nbsp;&nbsp; shell adalah command line interpreter yang menerjemahkan masukkan dan perintah ke os dan memerintahkan os untuk melaksanakan masukkan dan perintah, contoh: bash, tcsh, zsh
+</p>
 &nbsp;&nbsp; 
