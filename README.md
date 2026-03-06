@@ -115,10 +115,25 @@ pada virtual machine terdapat hypervisor untuk memisahkan sumber daya server bar
 &nbsp;&nbsp; Proyek kedua masih sama dengan tools yang sama menggunakan ansible namun dengan pemanfaatan berbeda. proyek sebelumnya <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/01-ansible-config-log-trap-cisco.md"><b>membuat konfigurasi kode</b></a> namun proyek kedua ini <a href="https://github.com/mindatama/tanampadi/blob/main/Proyek/02-ansible-config-backup-cisco.md"><b>membuat backup configurasi</b></a> perangkat switch cisco berjumlah kurang lebih 28 perangkat. diberikan perintah untuk membackup konfigurasi ke dalam file dan menyimpannya dalam folder yang telah ditentukan.<br>
 </p>
 <p>
-&nbsp;&nbsp; Proyek ketiga masih sama lagi dengan tools ansible namun dengan pemanfaatan berbeda. membuat configutasi backup dengan perangkat lain, cambium wireless. dan harus tertunda dahulu karena dari sumber yang ada ansible hanya mengcover switch dan router, belum merambah ke access point os.
+&nbsp;&nbsp; Proyek ketiga masih sama lagi dengan tools ansible namun dengan pemanfaatan berbeda. membuat configutasi backup dengan perangkat lain, cambium wireless. dan harus tertunda dahulu karena dari sumber yang ada ansible hanya mengcover switch dan router, belum merambah ke access point os.<br>
+kesimpulan dari proyek ketiga belum dapat diimplementasikan karena ansible belum merambah ke os AP di cambium. untuk produk cambium yang sdh tcover adalah switch cambium. 
 </p>
 <br>
 
 #### Sertifikat &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
 <br>
-&nbsp;&nbsp; pada materi linux fondation, akan diberikan informasi mengenai komponen pembentuk linux. komponen inti yaitu kernel, sebagai jembatan penghubung hardware dan software untuk menjalankan fungsi dan memproses perintah. ada 3 (distribusi linux) turunan utama dari kernel, debian yang memiliki cabang ubuntu. rhel (red hat enterprise linux) cabang centos dan fedora. dan suse dengan turunan sles dan open suse. serta banyak turunan lainnya. <br>
+&nbsp;&nbsp; pada materi linux fondation, akan diberikan informasi mengenai komponen pembentuk linux. komponen inti yaitu kernel, sebagai jembatan penghubung hardware dan software untuk menjalankan fungsi dan memproses perintah. ada 3 (distribusi linux) turunan utama dari kernel, debian yang memiliki cabang ubuntu. rhel (red hat enterprise linux) cabang centos dan fedora. dan suse dengan turunan sles dan open suse. serta banyak turunan lainnya. <br> 
+&nbsp;&nbsp; hal pertama adalah menginstall linux di laptop atau komputer yang dipakai, karena akan banyak tugas yang membutuhkan os linux. instalasi os linux dapat install langsung ke perangkat atau menggunakan virtual machine. pilih distro yang akan digunakan. <br>
+terdapat 3 distribution family pada linux yaitu: redhat, debian dan suse. <br>
+ketika menelusuri terminologi linux, kita akan bertemu dengan istilah yang kurang familiar berikut<br>
+
+- **[Kernel](#linux-kernel)**
+- **[distribution](#linux-distribution)**
+- **[boot loader](#linux-boot-loader)**
+- **[service](#linux-service)**
+- **[boot loader](#linux-filesystem)**
+- **[X window system](#linux-xwindow-system)**
+- **[desktop enviroment](#linux-desktop-enviroment)**
+- **[command line](#linux-command-line)**
+
+&nbsp;&nbsp; 
