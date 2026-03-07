@@ -127,14 +127,14 @@ kesimpulan dari proyek ketiga belum dapat diimplementasikan karena ansible belum
 terdapat 3 distribution family pada linux yaitu: redhat, debian dan suse. <br>
 ketika menelusuri terminologi linux, kita akan bertemu dengan istilah yang kurang familiar berikut<br>
 <p>
-&nbsp;&nbsp; Kernel adalah penghubung antara hardware dan aplikasi contoh linux kernel <br>
-&nbsp;&nbsp; distribution atau distro adalah kumpulan software yang membentu sebuah OS linux dasar contoh redhat enterprise linux, fedora, ubuntu dan gentoo<br>
+&nbsp;&nbsp; Kernel adalah penghubung antara hardware dan aplikasi contoh linux kernel <br><br>
+&nbsp;&nbsp; distribution atau distro adalah kumpulan software yang membentu sebuah OS linux dasar contoh redhat enterprise linux, fedora, ubuntu dan gentoo<br><br>
 &nbsp;&nbsp; boot loader adalah program yang menjalankan OS contoh: GRUB, ISOLINUX
-&nbsp;&nbsp; service aadalah program yang berjalan di background process. init : httpd (web server), ftpd (ftp server), named (name server), dhcpd (dhcp server) <br>
-&nbsp;&nbsp; filesystem adalah metode untuk storing dan organize file, contoh: ext3, ext4, fat, xfs dan btrfs <br>
-&nbsp;&nbsp; X window system adalah sistem penyedia tools standart dan protokol untuk membangun grafic user interface di hampir seluruh sistem linux. contoh: gui= desktop (kde,gnome,xfce) ; windows manager ; x windows system/ x11. console= cli/shell ; kernel ; hardware <br>
-&nbsp;&nbsp; desktop enviroment adalah gui (grafical user interface) dalam os, contoh: gnome, kde, xfce, fluxbox
-&nbsp;&nbsp; command line adalah interface untuk ketik perintah dalam os
-&nbsp;&nbsp; shell adalah command line interpreter yang menerjemahkan masukkan dan perintah ke os dan memerintahkan os untuk melaksanakan masukkan dan perintah, contoh: bash, tcsh, zsh
+&nbsp;&nbsp; service aadalah program yang berjalan di background process. init : httpd (web server), ftpd (ftp server), named (name server), dhcpd (dhcp server) <br><br>
+&nbsp;&nbsp; filesystem adalah metode untuk storing dan organize file, contoh: ext3, ext4, fat, xfs dan btrfs <br><br>
+&nbsp;&nbsp; X window system adalah sistem penyedia tools standart dan protokol untuk membangun grafic user interface di hampir seluruh sistem linux. contoh: gui= desktop (kde,gnome,xfce) ; windows manager ; x windows system/ x11. console= cli/shell ; kernel ; hardware <br><br>
+&nbsp;&nbsp; desktop enviroment adalah gui (grafical user interface) dalam os, contoh: gnome, kde, xfce, fluxbox<br><br>
+&nbsp;&nbsp; command line adalah interface untuk ketik perintah dalam os<br><br>
+&nbsp;&nbsp; shell adalah command line interpreter yang menerjemahkan masukkan dan perintah ke os dan memerintahkan os untuk melaksanakan masukkan dan perintah, contoh: bash, tcsh, zsh<br><br>
 </p>
 &nbsp;&nbsp; 
