@@ -137,4 +137,14 @@ ketika menelusuri terminologi linux, kita akan bertemu dengan istilah yang kuran
 &nbsp;&nbsp; command line adalah interface untuk ketik perintah dalam os<br><br>
 &nbsp;&nbsp; shell adalah command line interpreter yang menerjemahkan masukkan dan perintah ke os dan memerintahkan os untuk melaksanakan masukkan dan perintah, contoh: bash, tcsh, zsh<br><br>
 </p>
-&nbsp;&nbsp; 
+&nbsp;&nbsp; Boot Process<br>
+&nbsp;&nbsp; linux boot process adalah prosedur dari daya komputer di hidupkan hinga user interface siap beroperasi. <br>
+power on - BIOS (basic input output system)- Master boot record (MBR) atau EFI partition - boot loader (GRUB) - kernel - initial RAM disk (initramfs) - /sbin/init (proses awal) - command shell pakai getty - GUI (x window atau wayland).<br>
+<p>
+BIOS - langkah awal <br>
+ketika linux menjalankan banyak hardware termasuk layar dan keyboard, dan test memory utama. proses ini juga disebut POST (power of self test). BIOS software tersimpan pada ROM (read-only memory) chip pada motherboard. selanjutnya, sisa boot process di kontrol oleh OS. 
+</p>
+<p>
+MBR - Master Boot Record, EFI Partition, dan Boot Loader <br>
+setelah POST selesai, system control oper dari BIOS ke boot loader. boot loader biasanya tersimpan pada salah satu system milik storage device, hardisk atau ssd drive, salahsatunya di boot sector (untuk BIOS jadul/ MBR system) atau EFI partisi (EFI/UEFI system). dalam tahap ini, mesin tak dapat akses media penyimpanan. 
+</p>
