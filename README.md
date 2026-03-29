@@ -149,5 +149,6 @@ MBR - Master Boot Record, EFI Partition, dan Boot Loader <br>
 setelah POST selesai, system control oper dari BIOS ke boot loader. boot loader biasanya tersimpan pada salah satu system milik storage device, hardisk atau ssd drive, salahsatunya di boot sector (untuk BIOS jadul/ MBR system) atau EFI partisi (EFI/UEFI system). dalam tahap ini, mesin tak dapat akses media penyimpanan. lalu informasi tanggal waktu dan periperal penting tersimpan pada CMOS.
 </p>
 <p>
+boot loader yg eksis untuk
 boot loader yg eksis untuk Linux atau yang paling umum adalah GRUB (GRand Unified Boot loader), ISOLINUX (untuk boot melalui media external) dan DAS U-Boot (untuk booting pada device tanam). ketika booting linux, boot loader bertanggung jawab memuat kernel image dan initial RAM disk atau filesystem
 </p>
