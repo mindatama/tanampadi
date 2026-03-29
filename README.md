@@ -149,6 +149,12 @@ MBR - Master Boot Record, EFI Partition, dan Boot Loader <br>
 setelah POST selesai, system control oper dari BIOS ke boot loader. boot loader biasanya tersimpan pada salah satu system milik storage device, hardisk atau ssd drive, salahsatunya di boot sector (untuk BIOS jadul/ MBR system) atau EFI partisi (EFI/UEFI system). dalam tahap ini, mesin tak dapat akses media penyimpanan. lalu informasi tanggal waktu dan periperal penting tersimpan pada CMOS.
 </p>
 <p>
-boot loader yg eksis untuk
-boot loader yg eksis untuk Linux atau yang paling umum adalah GRUB (GRand Unified Boot loader), ISOLINUX (untuk boot melalui media external) dan DAS U-Boot (untuk booting pada device tanam). ketika booting linux, boot loader bertanggung jawab memuat kernel image dan initial RAM disk atau filesystem
+boot loader yg eksis untuk Linux atau yang paling umum adalah GRUB (GRand Unified Boot loader), ISOLINUX (untuk boot melalui media external) dan DAS U-Boot (untuk booting pada device tanam). ketika booting linux, boot loader bertanggung jawab memuat kernel image dan initial RAM disk atau filesystem<br>
+<br><b>gambar bios boot (MBR) vs uefi</b>
+</p>
+<p>
+boot loader memiliki dua tahapan berbeda: <br>
+untuk sistem pengguna metode BIOS/MBR, boot loader berada pada sector awal hardisk, besaran MBR hanya 512 bytes. pada tahap ini, boot loader cek partition table dan mencari bootable partisi. ketika ketemu partisi bootable, lanjut cari untuk tahap kedua boot loader, contoh GRUB, dan memuat ke RAM. <br>
+untuk system pengguna metode UEFI/EFI, uefi firmware membaca data boot manager untuk memutuskan aplikasi uefi mana yang akan di luncurkan dan dari mana (contoh, dari disk atau partisi mana efi partisi yg diluncurkan dapat ditemukan). firmware lalu meluncurkan uefi aplikasi, contoh grub sebagai boot entry pada firmware boot manager. prosedur ini lebih rumit tapi lebih cakap dari metode MBR yang lebih usang.<br>
+tahap kedua boot loader berada pada /boot. splash screen muncul, membolehkan kita untuk memilih OS dan atau kernel untuk di boot. setelah OS dan kernel dipilih, boot loader memuat kernel OS ke RAM dan mengoper control kesana. kernel hampir selalu terkompres, jadi tugas utama sistem ada membuka kompres. lanjut, sistem akan analisa harware dan meng-initialize driver perangkat ke kernel.
 </p>
