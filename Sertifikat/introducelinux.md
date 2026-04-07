@@ -33,4 +33,7 @@ boot loader memiliki dua tahapan berbeda: <br>
 untuk sistem pengguna metode BIOS/MBR, boot loader berada pada sector awal hardisk, besaran MBR hanya 512 bytes. pada tahap ini, boot loader cek partition table dan mencari bootable partisi. ketika ketemu partisi bootable, lanjut cari untuk tahap kedua boot loader, contoh GRUB, dan memuat ke RAM. <br>
 untuk system pengguna metode UEFI/EFI, uefi firmware membaca data boot manager untuk memutuskan aplikasi uefi mana yang akan di luncurkan dan dari mana (contoh, dari disk atau partisi mana efi partisi yg diluncurkan dapat ditemukan). firmware lalu meluncurkan uefi aplikasi, contoh grub sebagai boot entry pada firmware boot manager. prosedur ini lebih rumit tapi lebih cakap dari metode MBR yang lebih usang.<br>
 tahap kedua boot loader berada pada /boot. splash screen muncul, membolehkan kita untuk memilih OS dan atau kernel untuk di boot. setelah OS dan kernel dipilih, boot loader memuat kernel OS ke RAM dan mengoper control kesana. kernel hampir selalu terkompres, jadi tugas utama sistem ada membuka kompres. lanjut, sistem akan analisa harware dan meng-initialize driver perangkat ke kernel.
+</p><br>
+<br><b>Initial RAM Disk</b>
 </p>
+<p>initramfs filesystem image terdapat program dan binary file yang dibutuhkan untuk memuat (mount) root filesystem, termasuk menyediakan kebutuhan kernel untuk filesystem spesifik yang akan digunakan, dan memuat driver device untuk mass storage controllers
