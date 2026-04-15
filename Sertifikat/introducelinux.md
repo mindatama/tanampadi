@@ -37,4 +37,4 @@ tahap kedua boot loader berada pada /boot. splash screen muncul, membolehkan kit
 <br><b>Initial RAM Disk</b>
 </p>
 <p>initramfs filesystem image terdapat program dan binary file yang dibutuhkan untuk :<br>
-memuat (mount) root filesystem, termasuk menyediakan kebutuhan kernel untuk filesystem spesifik yang akan digunakan, dan memuat driver device untuk mass storage controllers,
+memuat (mount) root filesystem, termasuk menyediakan kebutuhan kernel untuk filesystem spesifik yang akan digunakan, dan memuat driver device untuk mass storage controllers, 
