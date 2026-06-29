@@ -122,4 +122,5 @@ kesimpulan dari proyek ketiga belum dapat diimplementasikan karena ansible belum
 
 #### Sertifikat &nbsp;[<sup>[DaftarIsi]</sup>](#key-daftar-isi)
 <br>
-&nbsp;&nbsp; pada <a href="https://github.com/mindatama/tanampadi/blob/main/Sertifikat/introducelinux.md">materi linux fondation</a>, akan diberikan informasi mengenai komponen pembentuk linux.
+&nbsp;&nbsp; pada <a href="https://github.com/mindatama/tanampadi/blob/main/Sertifikat/introducelinux.md">materi linux fondation</a>, akan diberikan informasi mengenai komponen pembentuk linux.<br>
+&nbsp;&nbsp; pada <a href="https://github.com/mindatama/tanampadi/blob/main/Sertifikat/iso20000.md">penerapan ISO 20000</a>, akan diberikan informasi mengenai framework ISO 20000
